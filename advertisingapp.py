@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import seaborn as sns
+import pickle
 from sklearn.naive_bayes import GaussianNB
 
 st.write("# Advertising App")
